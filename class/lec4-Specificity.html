@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+<!-- lecture 4 intro to css -->
+  <style>
+    
+    p {
+      color: blue;
+    }
+
+    
+    .main p {
+      color: green;
+    }
+
+   
+    .main.sale.clearance p {
+      color: hsl(200, 60%, 30%);
+    }
+    h1{
+      background-color: rgb(0,255,0) ;
+      text-align: center;
+      text-transform:uppercase;
+      font-style: oblique;
+      font-size: 5em;
+    }
+  </style>
+</head>
+
+<body>
+<h1>this is heading</h1>
+  <div>
+    <p>blue</p>
+  </div>
+
+  <div class="main">
+    <p>green</p>
+  </div>
+
+  <div class="main sale clearance">
+    <p>use hsl color</p>
+  </div>
+
+
+</body>
+
+</html>
