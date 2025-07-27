@@ -1,0 +1,71 @@
+#content{
+    background-color: aqua;
+    border-radius: 10px;
+    height: 200px;
+    padding-top: 20px ;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#cont{
+    background-color: bisque;
+    margin: 50px 20px 30px 30px;
+    height: 100px;
+    padding: 10px;
+}
+#para{
+    margin: auto;
+   font-size: 60px;
+   width: 500px;
+}
+/*لازم احدد العرض مع خاصية 
+margin : auto 
+and float */
+
+ .wrapper {
+      width: 100%;
+    
+      margin: 0 auto;
+    
+     background-color: aquamarine;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    p {
+       
+      font-size: 20px;
+     
+    
+    }
+    img{
+        float: left; 
+        width: 200px; 
+        margin-right: 20px;
+        border-radius: 2px;
+    }
+  pre{
+    clear: left;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  #Box1{
+    background-color: blueviolet;
+    width: 50%;
+     float: left;
+      height: 200px;
+     
+  }
+  #Box2{
+    background-color: blue;
+    width: 50%;
+     float: right;
+     height: 200px;
+     
+  }
+  div{
+    font-size: 20px;
+  }
+
+ 
