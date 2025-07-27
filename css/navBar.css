@@ -1,0 +1,45 @@
+#navBar{
+    background-color: palegreen;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 120px; 
+    margin-right: 40px;
+}
+/* gab مساحة بين لست و الثانيه */
+a{
+   
+    text-decoration: none;
+    color:black;
+    font-size: 40px;
+}
+img{
+    border-radius: 10px;
+   
+}
+#footer{
+     background-color: palegreen;
+     width: 100%;
+     height: 120px;;
+     margin-top: 80%;
+     text-align: center;
+padding: 20px;
+font-size: 30px;
+border-radius: 20px;
+     
+}
+#footer p:hover{
+    background-color: aqua;
+}
